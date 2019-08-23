@@ -1,0 +1,169 @@
+body {
+  font-family: 'Hind', sans-serif;
+  font-size: 1em;
+
+  background-color: #FFFFFF;
+
+  background-image: url('./docs/large_background.png');
+  background-repeat: repeat;
+  background-position: center top;
+}
+
+
+
+/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 1024px){
+/*Style*/
+.root.top.container {
+  background-color: #FFFCFF;
+  max-width: 60%;
+  border: 3px solid black;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+
+.root.container {
+  background-color: #FFFCFF;
+  max-width: 80%;
+  /*top: 1000px;*/
+  /*height: 4000px;*/
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.5em;
+  font-style: normal;
+  font-variant: normal;
+  /*font-weight: 300;*/
+  line-height: 4em;
+  color:black !Important;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  /*font-weight: 200;*/
+  line-height: 2em;
+  color:black !Important;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  font-style: normal;
+  font-variant: normal;
+  /*font-weight: 200;*/
+  line-height: 1.7em;
+  color:black
+}
+
+}
+
+/*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px){
+/*Style*/
+.root.top.container {
+  background-color: #FFFCFF;
+  max-width: 90%;
+  border: 3px solid black;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.root.container {
+  background-color: #FFFCFF;
+  max-width: 90%;
+  /*top: 1000px;*/
+  /*height: 4000px;*/
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  /*font-weight: 300;*/
+  line-height: 2em;
+  color:black !Important;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  /*font-weight: 200;*/
+  line-height: 1.5em;
+  color:black !Important;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75em;
+  font-style: normal;
+  font-variant: normal;
+  /*font-weight: 200;*/
+  line-height: 1.2em;
+  color:black
+}
+
+
+
+
+}
+
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width : 0px) and (max-width : 767px){
+/*Style*/
+.root.top.container {
+  background-color: #FFFCFF;
+  max-width: 90%;
+  border: 3px solid black;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.root.container {
+  background-color: #FFFCFF;
+  max-width: 90%;
+  /*top: 1000px;*/
+  /*height: 4000px;*/
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  /*font-weight: 300;*/
+  line-height: 2em;
+  color:black !Important;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  /*font-weight: 200;*/
+  line-height: 1.5em;
+  color:black !Important;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75em;
+  font-style: normal;
+  font-variant: normal;
+  /*font-weight: 200;*/
+  line-height: 1.2em;
+  color:black
+}
+
+}
+
+
+
