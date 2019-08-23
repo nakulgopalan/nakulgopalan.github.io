@@ -1,0 +1,50 @@
+{
+agent0 (agent): {
+x: {6}
+y: {5}
+direction: {south}
+}
+door0 (door): {
+locked: {0}
+top: {3}
+left: {4}
+bottom: {3}
+right: {4}
+canBeLocked: {false}
+}
+door1 (door): {
+locked: {0}
+top: {5}
+left: {4}
+bottom: {5}
+right: {4}
+canBeLocked: {false}
+}
+block0 (block): {
+x: {5}
+y: {6}
+shape: {chair}
+colour: {red}
+}
+room0 (room): {
+top: {8}
+left: {0}
+bottom: {0}
+right: {4}
+colour: {red}
+}
+room1 (room): {
+top: {4}
+left: {4}
+bottom: {0}
+right: {8}
+colour: {red}
+}
+room2 (room): {
+top: {8}
+left: {4}
+bottom: {4}
+right: {8}
+colour: {green}
+}
+}

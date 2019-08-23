@@ -1,0 +1,10 @@
+GetTheBlockNearTheRedBlock/
+GoNearTheLargestBlock/
+GoNearTheSmallestBlock/
+goToBiggestGreenRoom/
+goToBiggestRedroom/
+goToSmallestGreenRoom/
+goToSmallestRedRoom/
+goToTheBiggestRoom/
+goToTheSmallestRoom/
+tastList.txt
