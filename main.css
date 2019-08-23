@@ -3,8 +3,8 @@ body {
   font-size: 1em;
 
   background-color: #FFFFFF;
-
-  background-image: url('./docs/large_background.png');
+  /*background-image: url('./docs/large_background.png');*/
+  background-image: url('https://drive.google.com/file/d/1U58aAOlXzWpwF1HiZT3KZBp8yiZCZv5o/view?usp=sharing');
   background-repeat: repeat;
   background-position: center top;
 }
